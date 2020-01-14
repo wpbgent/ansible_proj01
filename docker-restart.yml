@@ -1,0 +1,7 @@
+---
+
+- name: restart a specific container
+  docker:
+    #name: {{ container_name }}
+    name: 393f41a255dd
+    state: restarted

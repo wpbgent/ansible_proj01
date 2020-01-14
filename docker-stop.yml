@@ -1,0 +1,6 @@
+---
+
+- name: Stop a container
+  docker_container:
+    name: 393f41a255dd
+    state: stopped

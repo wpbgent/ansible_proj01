@@ -1,0 +1,6 @@
+---
+- name: Restart entire Jenkins server or servers
+  gather_facts: false
+  hosts: [jenk_ded_servers]
+  become: true
+  tasks:

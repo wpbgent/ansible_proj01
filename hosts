@@ -1,0 +1,14 @@
+[rhel7_servers]
+rhel73 ansible_host=rhel73.regnar.org
+
+[docker_servers]
+docker01 ansible_host=docker01.regnar.org
+
+[jenk_ded_servers]
+jenkded ansible_host=jenkded.regnar.org
+jenkded02 ansible_host=jenkded02.regnar.org
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=ec2-user
+ansible_python_interpreter=auto_silent
